@@ -1,9 +1,9 @@
 import "../content/contenthome.scss";
-import clou from "/project/src/logo/clound-home.png";
-import linehome from "/project/src/logo/line1-home.svg";
-import screendev from "/project/src/logo/screendev-home.webp";
-import linehome2 from "/project/src/logo/line2-home.svg";
-import config from "/project/src/logo/config-home.webp";
+import clou from "../../logo/clound-home.png";
+import linehome from "../../logo/line1-home.svg";
+import screendev from "../../logo/screendev-home.webp";
+import linehome2 from "../../logo/line2-home.svg";
+import config from "../../logo/config-home.webp";
 import Content2 from "../content2/content2";
 function Content() {
   return (
@@ -11,6 +11,7 @@ function Content() {
       <div className="content">
         <div className="content--img">
           <img
+            alt=""
             className="content--img--sub"
             width="100%"
             height="100%"
@@ -27,7 +28,7 @@ function Content() {
         </div>
       </div>
       <div className="content--line">
-        <img src={linehome} />
+        <img alt="" src={linehome} />
       </div>
       <div className="content--img2">
         <div className="content--title-1">
@@ -39,15 +40,16 @@ function Content() {
           </p>
         </div>
         <div className="content--img__sub">
-          <img className="content--img__sub" src={screendev} />
+          <img alt="" className="content--img__sub" src={screendev} />
         </div>
       </div>
       <div className="content--img__line">
-        <img src={linehome2} />
+        <img alt="" src={linehome2} />
       </div>
       <div className="content--config">
         <div>
           <img
+            alt=""
             className="content--img3"
             height="100%"
             width="100%"

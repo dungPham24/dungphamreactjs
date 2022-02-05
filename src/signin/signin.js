@@ -1,19 +1,25 @@
-import sgin from "/project/src/logo/bdfc3bf9fbe8c9c7a9ba.png";
-import sgin2 from "/project/src/logo/e9b85d9d9916eec8f1a3.png";
+import sgin from "../logo/bdfc3bf9fbe8c9c7a9ba.png";
+import sgin2 from "../logo/e9b85d9d9916eec8f1a3.png";
 import "../signin/signin.scss";
 function SignIn() {
   document.title = "signIn";
   return (
     <div className="sign">
       <div>
-        <img className="sign--img" height="100%" width="100%" src={sgin} />
+        <img
+          alt=""
+          className="sign--img"
+          height="100%"
+          width="100%"
+          src={sgin}
+        />
         <div className="sign--img__title">
           <h2 className="sign--img__h2">Deploy in Minutes</h2>
           <p className="sign--img__p">
             Everything is fully backed by TheSphere, Codesphere's distributed
             high-performance data center
           </p>
-          <img width="100%" src={sgin2} />
+          <img alt="" width="100%" src={sgin2} />
         </div>
       </div>
       <div className="sign--title">

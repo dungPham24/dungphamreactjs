@@ -1,13 +1,13 @@
 import "../company/company.scss";
-import blus from "/project/src/logo/bgblur-blog.png";
-import bubbl from "/project/src/logo/bubble2-about.svg";
+import blus from "../logo/bgblur-blog.png";
+import bubbl from "../logo/bubble2-about.svg";
 import Footer from "../footer/footer";
-import smaill from "/project/src/logo/small-bubble-about.svg";
+import smaill from "../logo/small-bubble-about.svg";
 function Company() {
   document.title = "company";
   return (
     <div className="company">
-      <img width="100%" src={blus} />
+      <img alt="" width="100%" src={blus} />
       <div className="order--title">
         <h2 className="feature--h2">
           We optimize each and every detail to keep things simple for you
@@ -36,6 +36,7 @@ function Company() {
             </svg>
           </div>
           <img
+            alt=""
             className="company--tablet"
             width="700px"
             height="400px"
@@ -43,7 +44,7 @@ function Company() {
           />
         </div>
       </div>
-      <img width="100%" src={smaill} />
+      <img alt="" width="100%" src={smaill} />
       <Footer />
     </div>
   );

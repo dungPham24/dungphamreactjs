@@ -1,11 +1,11 @@
 import item1 from "./logo/promo_2711_1641055549966.jpg";
 import item2 from "./logo/promo_2713_1641056385647.jpg";
-import item3 from "/project/src/logo/promo_2705_1641055184568.jpg";
-import item4 from "/project/src/logo/promo_2708_1641055302491.jpg";
-import item5 from "/project/src/logo/promo_2710_1641055420852.jpg";
-import item6 from "/project/src/logo/promo_2720_1641056802015.jpg";
-import item7 from "/project/src/logo/promo_2715_1641056583250.jpg";
-import item8 from "/project/src/logo/promo_2714_1641056461025.jpg";
+import item3 from "./logo/promo_2705_1641055184568.jpg";
+import item4 from "./logo/promo_2708_1641055302491.jpg";
+import item5 from "./logo/promo_2710_1641055420852.jpg";
+import item6 from "./logo/promo_2720_1641056802015.jpg";
+import item7 from "./logo/promo_2715_1641056583250.jpg";
+import item8 from "./logo/promo_2714_1641056461025.jpg";
 const products = [
   {
     id: "1",

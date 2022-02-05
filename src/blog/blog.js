@@ -1,6 +1,6 @@
-import blogblur from "/project/src/logo/bgblur-hero.png";
+import blogblur from "../logo/bgblur-hero.png";
 import "../blog/blog.scss";
-import dock from "/project/src/logo/dock.webp";
+import dock from "../logo/dock.webp";
 import BlogSub from "./blogsub/blogsub";
 import Footer from "../footer/footer";
 import { Link } from "react-router-dom";
@@ -12,7 +12,7 @@ function Blog() {
 
   return (
     <div className="blog">
-      <img width="100%" src={blogblur} />
+      <img alt="" width="100%" src={blogblur} />
       <div className="blog-h2p">
         <p className="blog-p">THE BLOG</p>
         <h2 className="blog-h2">Insights and updates from across the team</h2>
@@ -26,7 +26,7 @@ function Blog() {
               to={`/blog/detaiblog/${item.id}`}
             >
               <div className="blog--img">
-                <img className="blog--img__sub" src={item.img} />
+                <img alt="" className="blog--img__sub" src={item.img} />
                 <div className="blog--h2pp">
                   <p className="blog-pp">Tutorial</p>
                   <h2 className="blog-h22">{item.tittle}</h2>
@@ -62,7 +62,7 @@ function Blog() {
       </div>
 
       <div>
-        <img className="blog--img__doks" width="100%" src={dock} />
+        <img alt="" className="blog--img__doks" width="100%" src={dock} />
       </div>
       <BlogSub />
       <Footer />

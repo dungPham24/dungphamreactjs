@@ -63,7 +63,7 @@ function App() {
       </div>
       <div className="app">
         <a href="#" className="app-logo">
-          <img className="app-img" src={logo} alt="/" />
+          <img alt="" className="app-img" src={logo} alt="/" />
         </a>
 
         <div className="app-nav">

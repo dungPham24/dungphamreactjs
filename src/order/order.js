@@ -1,4 +1,4 @@
-import blogblur from "/project/src/logo/bgblur-hero.png";
+import blogblur from "../logo/bgblur-hero.png";
 import "../order/order.scss";
 import Order1 from "./order1/order1";
 import Footer from "../footer/footer.js";
@@ -6,7 +6,7 @@ function Order() {
   document.title = "order";
   return (
     <div className="order">
-      <img className="order--imgm" width="100%" src={blogblur} />
+      <img alt="" className="order--imgm" width="100%" src={blogblur} />
       <div className="order--title">
         <p style={{ marginLeft: "25em" }} className="feature--p">
           PLANS & PRICING

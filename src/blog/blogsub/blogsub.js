@@ -24,6 +24,7 @@ function BlogSub() {
               </div>
               <div>
                 <img
+                  alt=""
                   className="blogsub--mediaTablet"
                   style={{ borderRadius: "10px" }}
                   width="100%"

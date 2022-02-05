@@ -1,12 +1,12 @@
 import "../content2/content2.scss";
-import githubIn from "/project/src/logo/github-integration.svg";
-import githubIn1 from "/project/src/logo/icongithub.svg";
-import githubIn2 from "/project/src/logo/multi-language.svg";
-import githubIn3 from "/project/src/logo/iconglobe.svg";
-import githubIn4 from "/project/src/logo/app-monitoring.webp";
-import githubIn5 from "/project/src/logo/icondashboard.svg";
-import githubIn6 from "/project/src/logo/custom-plan.webp";
-import githubIn7 from "/project/src/logo/iconcustom.svg";
+import githubIn from "../../logo/github-integration.svg";
+import githubIn1 from "../../logo/icongithub.svg";
+import githubIn2 from "../../logo/multi-language.svg";
+import githubIn3 from "../../logo/iconglobe.svg";
+import githubIn4 from "../../logo/icondashboard.svg";
+import githubIn5 from "../../logo/code-search.webp";
+import githubIn6 from "../../logo/custom-plan.webp";
+import githubIn7 from "../../logo/iconcustom.svg";
 import Footer from "../../footer/footer";
 
 function Content2() {
@@ -26,10 +26,10 @@ function Content2() {
             data-wow-delay=".2s"
           >
             <div>
-              <img width="100%" src={githubIn} />
+              <img alt="" width="100%" src={githubIn} />
             </div>
             <div className="content2--box__wapp">
-              <img className="content2--box__img" src={githubIn1} />
+              <img alt="" className="content2--box__img" src={githubIn1} />
               <h2 className="content2--box__h2">GitHub Integration</h2>
               <p className="content2--box__p">
                 Codesphere allows you to import your projects directly from a
@@ -43,10 +43,10 @@ function Content2() {
             data-wow-delay=".6s"
           >
             <div>
-              <img width="100%" src={githubIn2} />
+              <img alt="" width="100%" src={githubIn2} />
             </div>
             <div className="content2--box__wapp">
-              <img className="content2--box__img" src={githubIn3} />
+              <img alt="" className="content2--box__img" src={githubIn3} />
               <h2 className="content2--box__h2">Multi Language</h2>
               <p className="content2--box__p">
                 Codesphere comes with NodeJS and Python pre-installed, so you
@@ -62,10 +62,10 @@ function Content2() {
             data-wow-delay=".6s"
           >
             <div>
-              <img width="100%" src={githubIn4} />
+              <img alt="" width="100%" src={githubIn4} />
             </div>
             <div className="content2--box__wapp">
-              <img className="content2--box__img" src={githubIn5} />
+              <img alt="" className="content2--box__img" src={githubIn5} />
               <h2 className="content2--box__h2">App Monitoring</h2>
               <p className="content2--box__p">
                 Monitor your app's storage, processing, and memory consumption
@@ -79,10 +79,10 @@ function Content2() {
             data-wow-delay=".6s"
           >
             <div>
-              <img width="100%" src={githubIn6} />
+              <img alt="" width="100%" src={githubIn6} />
             </div>
             <div className="content2--box__wapp ">
-              <img className="content2--box__img" src={githubIn7} />
+              <img alt="" className="content2--box__img" src={githubIn7} />
               <h2 className="content2--box__h2">Custom Plan</h2>
               <p className="content2--box__p">
                 Don't let your cloud providers hit you with unexpected fees. Pay

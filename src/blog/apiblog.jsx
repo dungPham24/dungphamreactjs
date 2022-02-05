@@ -1,8 +1,8 @@
-import buiding from "/project/src/logo/Building-Quantum-Circuits-with-Javascript.png";
-import buiding1 from "/project/src/logo/Pong-Game-in-Javascript.png";
-import buiding2 from "/project/src/logo/Imposter-Syndrome-in-Tech.png";
-import buiding3 from "/project/src/logo/10-things-js.png";
-import buiding4 from "/project/src/logo/Web-Scraping-with-Python.png";
+import buiding from "../logo/Building-Quantum-Circuits-with-Javascript.png";
+import buiding1 from "../logo/Pong-Game-in-Javascript.png";
+import buiding2 from "../logo/Imposter-Syndrome-in-Tech.png";
+import buiding3 from "../logo/10-things-js.png";
+import buiding4 from "../logo/Web-Scraping-with-Python.png";
 const Apiblog1 = [
   {
     id: "1",

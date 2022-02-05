@@ -15,6 +15,7 @@ function Api() {
           <p className="blog-detail__p">20.01.2022</p>
           <div>
             <img
+              alt=""
               className="api--media"
               style={{ borderRadius: "10px" }}
               src={blogdetail}

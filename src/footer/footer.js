@@ -1,13 +1,13 @@
-import footer from "/project/src/logo/circle-codesphere.svg";
-import contetnfeeback from "/project/src/logo/iconbook.svg";
-import contetnfeeback1 from "/project/src/logo/iconfeedback.svg";
+import footer from "../logo/circle-codesphere.svg";
+import contetnfeeback from "../logo/iconbook.svg";
+import contetnfeeback1 from "../logo/iconfeedback.svg";
 function Footer() {
   return (
     <>
       <div className="content2--feeback">
         <div className="content2--feeback__wapp1">
           <div className="content2--feeback__img">
-            <img src={contetnfeeback} />
+            <img alt="" src={contetnfeeback} />
           </div>
           <div className="content2--ml">
             <h2 className="content2__h2">What can I build with Codesphere?</h2>
@@ -19,7 +19,7 @@ function Footer() {
         </div>
         <div className="content2--feeback__wapp">
           <div className="content2--feeback__img">
-            <img src={contetnfeeback1} />
+            <img alt="" src={contetnfeeback1} />
           </div>
           <div className="content2--ml">
             <h2 className="content2__h2">Feedback</h2>
@@ -33,7 +33,7 @@ function Footer() {
       <div className="footer">
         <div className="footer--grid5">
           <div>
-            <img className="footer-img" width="100%" src={footer} />
+            <img alt="" className="footer-img" width="100%" src={footer} />
             <h2 className="footer-codep">Codesphere</h2>
             <p className="footer-codepp">
               2022 © Copyright Codesphere Inc. All rights reserved

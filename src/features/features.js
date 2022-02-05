@@ -1,12 +1,12 @@
-import feature from "/project/src/logo/bg-hero-features.jpg";
+import feature from "../logo/bg-hero-features.jpg";
 import "../features/feature.scss";
-import feature1 from "/project/src/logo/multi-language.svg";
-import feature2 from "/project/src/logo/github-integration.svg";
-import feature3 from "/project/src/logo/code-search.webp";
-import feature4 from "/project/src/logo/custom-domain.webp";
-import feature5 from "/project/src/logo/app-monitoring.webp";
-import feature6 from "/project/src/logo/environment-variables.webp";
-import feature7 from "/project/src/logo/custom-plan.webp";
+import feature1 from "../logo/multi-language.svg";
+import feature2 from "../logo/github-integration.svg";
+import feature3 from "../logo/code-search.webp";
+import feature4 from "../logo/custom-domain.webp";
+import feature5 from "../logo/app-monitoring.webp";
+import feature6 from "../logo/environment-variables.webp";
+import feature7 from "../logo/custom-plan.webp";
 import Footer from "../footer/footer";
 function Features() {
   document.title = "features";
@@ -14,7 +14,7 @@ function Features() {
   return (
     <div className="feature fullPage">
       <div className="feature--img__1">
-        <img className="feature--img__2" width="100%" src={feature} />
+        <img alt="" className="feature--img__2" width="100%" src={feature} />
       </div>
       <div className="feature--title">
         <p className="feature--p">AWESOME FEATURES</p>
@@ -35,12 +35,12 @@ function Features() {
               </p>
             </div>
             <div>
-              <img className="feature--media" src={feature1} />
+              <img alt="" className="feature--media" src={feature1} />
             </div>
           </div>
           <div className="feature--navleft__1 section">
             <div>
-              <img className="feature--media1" src={feature2} />
+              <img alt="" className="feature--media1" src={feature2} />
             </div>
             <div className="feature--mg">
               <h2 className="feature--h2__1">GitHub Integration</h2>
@@ -60,12 +60,12 @@ function Features() {
               </p>
             </div>
             <div>
-              <img width="100%" src={feature3} />
+              <img alt="" width="100%" src={feature3} />
             </div>
           </div>
           <div className="feature--navleft__1 section">
             <div>
-              <img width="100%" src={feature4} />
+              <img alt="" width="100%" src={feature4} />
             </div>
             <div className="feature--mg">
               <h2 className="feature--h2__1">Custom Domains</h2>
@@ -85,12 +85,12 @@ function Features() {
               </p>
             </div>
             <div>
-              <img width="100%" src={feature5} />
+              <img alt="" width="100%" src={feature5} />
             </div>
           </div>
           <div className="feature--navleft__1 section">
             <div>
-              <img width="100%" src={feature6} />
+              <img alt="" width="100%" src={feature6} />
             </div>
             <div className="feature--mg">
               <h2 className="feature--h2__1">Environment Variables</h2>
@@ -110,7 +110,7 @@ function Features() {
               </p>
             </div>
             <div>
-              <img width="100%" src={feature7} />
+              <img alt="" width="100%" src={feature7} />
             </div>
           </div>
         </div>

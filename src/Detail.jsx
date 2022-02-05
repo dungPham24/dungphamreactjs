@@ -13,7 +13,7 @@ const Detail = (props) => {
   return (
     <div className="detail">
       <div className="detail--box">
-        <img className="detail--img" src={product.img} />
+        <img alt="" className="detail--img" src={product.img} />
         <h2 className="detail--title">{product.title}</h2>
         <div className="detail--flex">
           <p className="detail--flex__p">{product.price}</p>

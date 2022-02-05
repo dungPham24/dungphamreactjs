@@ -14,6 +14,7 @@ const Blogdetail = (props) => {
         <h2 className="blogdetai--title">{products.title}</h2>
         <p className="blogdetai--time">{products.time}</p>
         <img
+          alt=""
           className="blogdetai--img"
           width="828px"
           src={products.img}
