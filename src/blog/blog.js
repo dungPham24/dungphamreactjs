@@ -50,7 +50,7 @@ function Blog() {
                       <h2 className="blog-h22">{item.tittle}</h2>
                       <div className="blog-time">
                         <div className="blog-time-pd">2022-01-06</div>
-                        <a>Read more</a>
+                        <a href="/">Read more</a>
                       </div>
                     </div>
                   </div>

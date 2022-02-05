@@ -42,7 +42,7 @@ function Order1() {
             </div>
           </div>
           <div className="order1--get">
-            <a href="#">Get Started</a>
+            <a href="/">Get Started</a>
           </div>
         </div>
         <div className="order1--width">
@@ -84,7 +84,7 @@ function Order1() {
             </div>
           </div>
           <div className="order1--get">
-            <a href="#">Get Started</a>
+            <a href="/">Get Started</a>
           </div>
         </div>
         <div className="order1--width">
@@ -126,7 +126,7 @@ function Order1() {
             </div>
           </div>
           <div className="order1--get">
-            <a href="#">Get Started</a>
+            <a href="/">Get Started</a>
           </div>
         </div>
         <div className="order1--width">
@@ -166,7 +166,7 @@ function Order1() {
             </div>
           </div>
           <div className="order1--get">
-            <a href="#">Get Started</a>
+            <a href="/">Get Started</a>
           </div>
         </div>
       </Link>

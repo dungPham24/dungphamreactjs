@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import logo from "../src/logo/logo.svg";
 import Home from "./home/home";
 import Blog from "./blog/blog";
@@ -62,8 +62,8 @@ function App() {
         </div>
       </div>
       <div className="app">
-        <a href="#" className="app-logo">
-          <img alt="" className="app-img" src={logo} alt="/" />
+        <a href="/" className="app-logo">
+          <img className="app-img" src={logo} alt="/" />
         </a>
 
         <div className="app-nav">

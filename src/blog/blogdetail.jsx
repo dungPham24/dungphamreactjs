@@ -14,15 +14,14 @@ const Blogdetail = (props) => {
         <h2 className="blogdetai--title">{products.title}</h2>
         <p className="blogdetai--time">{products.time}</p>
         <img
-          alt=""
           className="blogdetai--img"
           width="828px"
           src={products.img}
-          alt=""
+          alt="/"
         />
       </div>
-      <div class="cha">
-        <div class="con">
+      <div className="cha">
+        <div className="con">
           <p>{products.content}</p>
         </div>
       </div>

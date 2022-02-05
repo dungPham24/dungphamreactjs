@@ -1,6 +1,3 @@
-import { useParams } from "react-router-dom";
-import ApiBlog from "./fakearray";
-import { apiBlog1 } from "./fakeapi2";
 import blogdetail from "../logo/Custom-Size---8.png";
 import "../api/api.scss";
 import Footer from "../footer/footer";

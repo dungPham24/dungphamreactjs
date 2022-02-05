@@ -1,6 +1,5 @@
 import React from "react";
-import PropTypes from "prop-types";
-import products, { getProductById } from "./fakeData";
+import { getProductById } from "./fakeData";
 import { useParams } from "react-router-dom";
 import Footer from "./footer/footer";
 import "../src/detail.scss";
