@@ -1,0 +1,217 @@
+.sliderhome {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  z-index: 3;
+
+  &--title {
+    font-size: 7.2em;
+    font-weight: 400;
+    background-image: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.2),
+        rgba(255, 255, 255, 0.2)
+      ),
+      linear-gradient(98.94deg, #00bcff 0.87%, #814bf6 57.85%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 7rem;
+    font-weight: 800;
+    display: block;
+    @media (min-width: 740px) and (max-width: 1023px) {
+      margin-top: -100px;
+    }
+    @media (max-width: 739px) {
+      line-height: 1.2;
+    }
+  }
+  &--text__P {
+    display: flex;
+    color: #46415b;
+    font-size: 12px;
+    &-1 {
+      margin-right: 28px;
+      margin-top: 40px;
+    }
+  }
+  &--p {
+    font-size: 16px;
+    color: #fff;
+    max-width: 440px;
+    margin: 20px 0 30px 0;
+    @media (max-width: 739px) {
+      max-width: 400px;
+    }
+  }
+  &--wap {
+    margin-top: 85px;
+    margin-left: 34px;
+  }
+  &--button {
+    background-color: #814bf6;
+    border-radius: 9px;
+    width: 140px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+  }
+  &--img {
+    margin-top: 20px;
+    transition: transform 0.3s;
+    text-align: center;
+    @media (max-width: 739px) {
+      width: 50%;
+      margin: auto;
+      margin-top: 20px;
+    }
+    &__rotage {
+      @media (min-width: 740px) and (max-width: 1023px) {
+        width: 400px;
+        height: 400px;
+      }
+    }
+
+    &__1:not(:last-child) {
+      display: flex;
+
+      margin-right: 50px;
+    }
+  }
+
+  &--img1 {
+    display: flex;
+    margin-top: 30px;
+    @media (max-width: 739px) {
+      display: none;
+    }
+  }
+  &--img__1 {
+    cursor: pointer;
+  }
+}
+
+@keyframes move-twink-back {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -10000px 5000px;
+  }
+}
+@-webkit-keyframes move-twink-back {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -10000px 5000px;
+  }
+}
+@-moz-keyframes move-twink-back {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -10000px 5000px;
+  }
+}
+@-ms-keyframes move-twink-back {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -10000px 5000px;
+  }
+}
+
+@keyframes move-clouds-back {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 10000px 0;
+  }
+}
+@-webkit-keyframes move-clouds-back {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 10000px 0;
+  }
+}
+@-moz-keyframes move-clouds-back {
+  from {
+    background-position: 1 1;
+  }
+  to {
+    background-position: 10000px 0;
+  }
+}
+@-ms-keyframes move-clouds-back {
+  from {
+    background-position: 0;
+  }
+  to {
+    background-position: 10000px 0;
+  }
+}
+
+.sliderhome {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 10em;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  z-index: 2;
+  @media (max-width: 739px) {
+    height: 110vh;
+  }
+}
+.twinkling {
+  position: absolute;
+  top: 9em;
+  left: 0;
+  right: 0;
+  bottom: 10em;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  @media (min-width: 740px) and (max-width: 1023px) {
+    display: block;
+    bottom: 0;
+    width: auto;
+    height: auto;
+  }
+  @media (max-width: 739px) {
+    display: block;
+    height: 110vh;
+  }
+}
+.sliderhome {
+  background: #000 url("../logo/bgblur-hero.png") repeat top center;
+  z-index: 12;
+}
+
+.twinkling {
+  background: transparent
+    url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top
+    center;
+  z-index: 12;
+
+  -moz-animation: move-twink-back 200s linear infinite;
+  -ms-animation: move-twink-back 200s linear infinite;
+  -o-animation: move-twink-back 200s linear infinite;
+  -webkit-animation: move-twink-back 200s linear infinite;
+  animation: move-twink-back 200s linear infinite;
+}

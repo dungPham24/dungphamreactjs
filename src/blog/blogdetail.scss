@@ -1,0 +1,142 @@
+.blogdetai {
+  text-align: center;
+  &--title {
+    padding-top: 3em;
+    color: #fff;
+    font-size: 40px;
+    max-width: 1050px;
+    margin-left: 100px;
+    @media (max-width: 739px) {
+      margin-left: 0;
+    }
+  }
+  &--time {
+    color: #ccc;
+    font-size: 16px;
+    padding: 2em 0;
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      width: 30em;
+      height: 2px;
+      color: #ccc;
+      background-color: #ccc;
+      opacity: 0.2;
+      top: 26%;
+      left: 31%;
+      border-radius: 10px;
+      @media (max-width: 739px) {
+        width: 22em;
+        left: 2%;
+      }
+    }
+  }
+  &--img {
+    border-radius: 9px;
+    @media (max-width: 739px) {
+      width: 100%;
+    }
+  }
+}
+
+.cha {
+  max-width: 700px;
+  margin-left: 300px;
+  text-align: center;
+  height: 100%;
+  @media (max-width: 739px) {
+    margin-left: 0;
+  }
+}
+.con {
+  margin-top: 30px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  font-size: 26px;
+  color: #fff;
+}
+$dark-grey: #404040;
+$nc-blue: #00bdfc;
+$nc-bl-dark: #0093c4;
+$red: #fc3f00;
+button {
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 0.75em; // 12px/16px
+  display: inline-block;
+  text-decoration: none;
+
+  &:hover {
+    cursor: pointer;
+  }
+  &:focus {
+    text-decoration: none;
+    outline: none;
+  }
+}
+.comment-box {
+  max-width: 37.5rem;
+  color: #fff;
+  background-color: #909090;
+  border-radius: 0.875rem;
+  padding: 0.2rem 1rem 2rem;
+}
+.comment-form {
+  background-color: #fff;
+  border-radius: 0.25rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+.comment-form-fields {
+  margin-bottom: 0.25rem;
+  input,
+  textarea {
+    border: none;
+    border-bottom: 1px solid $dark-grey;
+    font-size: 0.85rem;
+    padding: 0.25rem 0;
+    width: 99%;
+
+    &:focus {
+      border-bottom-color: $nc-blue;
+      outline: none;
+    }
+  }
+  textarea {
+    font-style: italic;
+  }
+}
+.comment-form-actions {
+}
+.comment-count {
+  color: $dark-grey;
+}
+#comment-reveal {
+  float: right;
+  background-color: $nc-blue;
+  color: #fff;
+}
+.comment {
+  border-top: 0.125rem solid $dark-grey;
+}
+.comment-body {
+  font-style: italic;
+  margin-left: 1rem;
+}
+.comment-footer {
+  margin-bottom: 1rem;
+}
+.comment-footer-delete {
+  padding: 0.2rem 0;
+  color: $dark-grey;
+  text-decoration: none;
+
+  &:hover {
+    color: $nc-blue;
+    font-weight: bold;
+  }
+}

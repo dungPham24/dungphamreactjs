@@ -1,0 +1,134 @@
+.feature {
+  background-color: #110e27;
+  &--img__1 {
+    position: relative;
+    z-index: 2;
+  }
+  &--img__2 {
+    margin-top: -40em;
+    @media screen and(min-width:1024px) {
+      margin-top: 0px;
+    }
+  }
+  &--navleft {
+    @media (min-width: 740px) and (max-width: 1023px) {
+      margin-top: 30em;
+    }
+    @media (max-width: 739px) {
+      margin-top: 50em;
+    }
+  }
+  &--title {
+    position: absolute;
+    z-index: 2;
+    top: 20%;
+    left: 20%;
+    max-width: 860px;
+    margin: 40px auto 0 auto;
+    text-align: center;
+    @media (min-width: 740px) and (max-width: 1023px) {
+      top: 10%;
+      left: 0%;
+    }
+    @media (max-width: 739px) {
+      top: 10%;
+      left: 0;
+    }
+  }
+  &--p {
+    width: 170px;
+    height: 34px;
+    background-color: #44298a;
+    border-radius: 1.5em;
+    line-height: 34px;
+    margin-left: 34em;
+    letter-spacing: 0.2rem;
+    color: rgba(255, 255, 255, 0.5);
+    @media (min-width: 740px) and (max-width: 1023px) {
+      margin-left: 28em;
+    }
+    @media (max-width: 739px) {
+      margin-left: 21em;
+    }
+  }
+  &--h2 {
+    font-size: 52px;
+    color: #fff;
+    font-weight: 600;
+    @media (max-width: 739px) {
+      font-size: 30px;
+    }
+  }
+  &--scroll {
+    display: grid;
+    grid-template-columns: 1fr 190px;
+    column-gap: 100px;
+    @media (min-width: 740px) and (max-width: 1023px) {
+      display: block;
+    }
+    @media (max-width: 739px) {
+      display: block;
+    }
+  }
+  &--navleft__1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 6em;
+    margin-left: 2.5em;
+    @media (max-width: 739px) {
+      grid-template-columns: 1fr;
+      margin-left: 0;
+      text-align: center;
+    }
+  }
+  &--h2__1 {
+    color: #fff;
+    font-size: 2.4em;
+    letter-spacing: 0.2rem;
+  }
+  &--p__1 {
+    color: #827c9b;
+    font-size: 16px;
+    margin-top: 1em;
+  }
+  &--mg {
+    margin-top: 6em;
+    @media (max-width: 739px) {
+      order: 2;
+    }
+  }
+  &--scroll-line {
+    color: #fff;
+    height: 36px;
+    align-items: center;
+    margin: 14px 10px;
+    cursor: pointer;
+    font-weight: 400;
+
+    &:hover {
+      color: #44298a;
+    }
+  }
+  &--navright {
+    position: fixed;
+    top: 25%;
+    right: 3%;
+    z-index: 1;
+    @media (min-width: 740px) and (max-width: 1023px) {
+      display: none;
+    }
+    @media (max-width: 739px) {
+      display: none;
+    }
+  }
+  &--media {
+    @media (max-width: 739px) {
+      width: 100%;
+    }
+  }
+  &--media1 {
+    @media (max-width: 739px) {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.blog-detail {
+  background-color: #110e27;
+  text-align: center;
+  &__h2 {
+    color: #fff;
+    font-size: 3em;
+    padding-top: 120px;
+    margin-bottom: 20px;
+  }
+  &__p {
+    color: #ccc;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  &__p1 {
+    padding: 2em 26em;
+    color: #ccc;
+    font-size: 14px;
+    text-align: start;
+    @media (max-width: 739px) {
+      padding: 0;
+    }
+  }
+}
+.api--media {
+  @media (max-width: 739px) {
+    width: 100%;
+  }
+}

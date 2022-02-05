@@ -1,0 +1,23 @@
+.order {
+  &--imgm {
+    position: relative;
+  }
+  background-color: #110e27;
+  &--title {
+    position: absolute;
+    z-index: 2;
+    top: 20%;
+    left: 20%;
+    max-width: 700px;
+    margin: 40px auto 0 auto;
+    text-align: center;
+    @media (min-width: 740px) and (max-width: 1023px) {
+      top: 9%;
+      left: 4%;
+    }
+    @media (max-width: 739px) {
+      left: 0%;
+      top: 10%;
+    }
+  }
+}
