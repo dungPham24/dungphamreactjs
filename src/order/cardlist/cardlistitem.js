@@ -21,7 +21,6 @@ function CardlistItem() {
           <div key={index} className="cardlist--product">
             <div>
               <img
-                alt=""
                 style={{ borderRadius: "10px" }}
                 width="100%"
                 src={item.img}
