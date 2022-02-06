@@ -5,7 +5,7 @@ import buiding3 from "../logo/10-things-js.png";
 import buiding4 from "../logo/Web-Scraping-with-Python.png";
 const Apiblog1 = [
   {
-    id: "1",
+    id: 1,
     title: "Quantum Computing with Javascript using Q.js",
     descriton: "Tutorial",
     img: buiding,
@@ -14,7 +14,7 @@ const Apiblog1 = [
       "While Quantum Computing may feel like a new buzzword, it’s been around for quite a long time. What started as a theoretical idea in the 1980s is slowly becoming a reality In this tutorial, we’ll be talking about how Quantum computing works and how you can use Javascript to simulate a simple Quantum circuit that you can play around with Quantum computing is a form of computation that harnesses the power and potential of Quantum Mechanics. Unlike classical computing that works with transistors and bit values 0 and 1, quantum computing uses the properties exhibited by subatomic particles to perform computations and solve problems too complex for classical computers It utilizes what’s known as qubits, which can have values 0, 1, or both 0 and 1 at the same time. This property of having two values at the same time is a feature of superposition and is only possible within quantum states and not classical ones ",
   },
   {
-    id: "2",
+    id: 2,
     title: "Can we make Pong in less than a 100 lines of Javascript?",
     descriton: "Tutorial",
     img: buiding1,
@@ -23,7 +23,7 @@ const Apiblog1 = [
       "The original Pong took Atari over 3 months to complete back in 1972. The classic arcade game was one of the first commercially successful games that paved the way for the game development industry. Additionally, it’s simplicity makes it one of the first projects that any programmer takes on. As a showcase of how much easier programming has become in the past 50 years, we’re going to be attempting to make Pong in less than 100 lines of Javascript! You can play the finished project deployed on Codesphere here.Let’s get started!",
   },
   {
-    id: "3",
+    id: 3,
     title: "How to overcome Imposter Syndrome in Tech",
     descriton: "Tutorial",
     img: buiding2,
@@ -32,7 +32,7 @@ const Apiblog1 = [
       "Ever felt the need to pull out data from a website? What would you do? Visit the sites one after the other and gather information? Well that would work if you have a page or two. However, if you have lots of them, manual extraction will become too difficult a task; this is where web scraping comes to the rescue! Web scraping, as the name suggests, is a method of extracting data from web pages in an automated fashion. Scraping is super helpful in price comparisons, R&D, gathering data from social media, job listings, and more. Many methods can be used to perform web scraping such as online services, APIs, or even writing your own script. And that’s why we are here. This article will teach you the basics of how to scrape data from the web. Before we get into that, let’s take a quick look at why we would even want to scrape data from the web.",
   },
   {
-    id: "4",
+    id: 4,
     title: "10 Things You Didn’t Know You Could Do With Javascript",
     descriton: "Informative",
     img: buiding3,
@@ -41,7 +41,7 @@ const Apiblog1 = [
       "Have you ever wondered why someone thinks so highly of you? Have you questioned why they’ve given you such a cool and important project to own at work?,The majority of us have probably experienced Imposter Syndrome during some stage of our lives. No matter if you’re just starting out in your career, if you’re a perfectionist, or a high performer with many years experience, millions of people suffer with imposter syndrome.A belief that you are not intelligent, creative or generally deserving of the success you are experiencing, even though there is plenty of evidence of your achievements.People who experience imposter syndrome are basically experiencing the feeling of being a fraud who is undeserving, which brings feelings of anxiety and stress as you feel like you’re misleading your colleagues and employees. Imposter syndrome is prevalent within the tech industry, with about 58% of tech employees stating that they currently experience some form of the condition within their careers. It’s especially common in software engineers, developers, and designers. It’s usually worse in people who are new within the tech industry, are part of an underrepresented group, or have come from different professional backgrounds.",
   },
   {
-    id: "5",
+    id: 5,
     title: "Scrape Your First Website in Minutes with Python",
     descriton: "Informative",
     img: buiding4,

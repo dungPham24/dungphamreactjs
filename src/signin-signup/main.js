@@ -1,14 +1,18 @@
-import React, { useState } from "react";
+import React, { Fragment, useState } from "react";
 import SignIn from "./signin";
 import SignUp from "./signup";
 
 function MainSign() {
-  const [isLogin, setIsLogin] = useState(false);
+  const [isLogin, setIsLogin] = useState(true);
+
   return (
-    <div>
-      {isLogin ? <SignIn /> : <SignUp />}
-      <button onClick={() => setIsLogin(!isLogin)}>Click here to change</button>
-    </div>
+    <Fragment>
+      {isLogin ? (
+        <SignIn setIsLogin={setIsLogin} />
+      ) : (
+        <SignUp setIsLogin={setIsLogin} />
+      )}
+    </Fragment>
   );
 }
 
