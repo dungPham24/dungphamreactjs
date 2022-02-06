@@ -4,7 +4,7 @@ import githubIn1 from "../../logo/icongithub.svg";
 import githubIn2 from "../../logo/multi-language.svg";
 import githubIn3 from "../../logo/iconglobe.svg";
 import githubIn4 from "../../logo/icondashboard.svg";
-import githubIn5 from "../../logo/code-search.webp";
+import githubIn5 from "../../logo/app-monitoring.webp";
 import githubIn6 from "../../logo/custom-plan.webp";
 import githubIn7 from "../../logo/iconcustom.svg";
 import Footer from "../../footer/footer";
@@ -62,14 +62,16 @@ function Content2() {
             data-wow-delay=".6s"
           >
             <div>
-              <img alt="" width="100%" src={githubIn4} />
+              <img alt="" width="100%" src={githubIn5} />
             </div>
             <div className="content2--box__wapp">
-              <img alt="" className="content2--box__img" src={githubIn5} />
+              <img alt="" className="content2--box__img" src={githubIn4} />
               <h2 className="content2--box__h2">App Monitoring</h2>
               <p className="content2--box__p">
-                Monitor your app's storage, processing, and memory consumption
-                all within Codesphere's web IDE - no external tools necessary!
+                Codesphere comes with NodeJS and Python pre-installed, so you
+                can code without spending hours configuring your environment.
+                Codesphere also supports syntax highlighting and code completion
+                for languages like HTML, CSS, JS, and Python.
               </p>
             </div>
           </div>
