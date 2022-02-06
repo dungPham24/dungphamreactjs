@@ -52,7 +52,7 @@ const Apiblog1 = [
 ];
 
 export const getProductByIds = (id) => {
-  const datas = Apiblog1.find((data) => data.id === id.id);
+  const datas = Apiblog1.find((data) => data.id === parseInt(id));
 
   return datas;
 };

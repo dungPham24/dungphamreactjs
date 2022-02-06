@@ -5,6 +5,7 @@ import { getProductByIds } from "./apiblog";
 import Footer from "../footer/footer.js";
 const Blogdetail = (props) => {
   const { id } = useParams();
+
   const products = getProductByIds(id);
   return (
     <Fragment>
