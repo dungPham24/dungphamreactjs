@@ -1,4 +1,4 @@
-import blogdetail from "../logo/Custom-Size---8.png";
+import blogdetail from "../../src/logo/Custom-Size---8.png";
 import "../api/api.scss";
 import Footer from "../footer/footer";
 function Api() {
