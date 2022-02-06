@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
-import logo from "../src/logo/logo.svg";
+import logo from "./logo/logo.svg";
 import Home from "./home/home";
 import Blog from "./blog/blog";
 import Order from "./order/order";
@@ -9,7 +9,7 @@ import Company from "./company/company";
 import Tab from "./tabs/tabs";
 import "../src/App.scss";
 import ScrollToTop from "./srolltop";
-import SignIn from "./signin/signin";
+import MainSign from "./signin-signup/main";
 import Api from "./api/api";
 import Detail from "./Detail";
 import $ from "jquery";
@@ -119,7 +119,7 @@ function App() {
           <Route path="/order" element={<Order />} />
           <Route path="/order/detail/:id" element={<Detail />} />
           <Route path="/company" element={<Company />} />
-          <Route path="/SignIn" element={<SignIn />} />
+          <Route path="/SignIn" element={<MainSign />} />
         </Routes>
       </ScrollToTop>
     </div>
