@@ -111,15 +111,15 @@ function App() {
 
       <ScrollToTop>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/features" element={<Features />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/blog/detaiblog/:id" element={<Api />} />
-          <Route path="/blog/detail/:id" element={<Blogdetail />} />
-          <Route path="/order" element={<Order />} />
-          <Route path="/order/detail/:id" element={<Detail />} />
-          <Route path="/company" element={<Company />} />
-          <Route path="/SignIn" element={<MainSign />} />
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/features" element={<Features />} />
+          <Route exact path="/blog" element={<Blog />} />
+          <Route exact path="/blog/detaiblog/:id" element={<Api />} />
+          <Route exact path="/blog/detail/:id" element={<Blogdetail />} />
+          <Route exact path="/order" element={<Order />} />
+          <Route exact path="/order/detail/:id" element={<Detail />} />
+          <Route exact path="/company" element={<Company />} />
+          <Route exact path="/SignIn" element={<MainSign />} />
         </Routes>
       </ScrollToTop>
     </div>
