@@ -12,7 +12,7 @@ const Detail = (props) => {
   return (
     <div className="detail">
       <div className="detail--box">
-        <img alt="" className="detail--img" src={product.img} />
+        <img alt="/" className="detail--img" src={product.img} />
 
         <h2 className="detail--title">{product.title}</h2>
         <div className="detail--flex">
