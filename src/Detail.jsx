@@ -3,7 +3,7 @@ import { getProductById } from "./fakeData";
 import { useParams } from "react-router-dom";
 import Footer from "./footer/footer";
 import "../src/detail.scss";
-const Detail = (props) => {
+const Detail = () => {
   document.title = "Detail";
   const { id } = useParams();
 
